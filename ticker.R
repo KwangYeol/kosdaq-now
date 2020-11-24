@@ -7,6 +7,6 @@ tickers <- get_tickers()
 
 tickers %>%
   filter(`시장구분` == '코스닥') ->
-  kospi_tickers
+  kosdaq_tickers
 
-write_tickers(kospi_tickers)
+write_tickers(kosdaq_tickers)

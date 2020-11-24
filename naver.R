@@ -13,7 +13,7 @@ tickers %>%
   as.vector ->
   ticker_list
 
-ticker_list <- c(ticker_list, "kospi")
+ticker_list <- c(ticker_list, "kosdaq")
 symbols <- get_symbols(ticker_list, count=7000)
 
 write_symbols(symbols)
