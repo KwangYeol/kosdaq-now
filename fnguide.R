@@ -1,4 +1,5 @@
-source("R/kuant.R")
+library(devtools)
+source_url("https://raw.githubusercontent.com/KwangYeol/kospi-now/main/R/kuant.R")
 
 print(list.files())
 
