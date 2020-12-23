@@ -1,3 +1,5 @@
+.libPaths( c(Sys.getenv("RENV_PATHS_ROOT"), .libPaths()))
+
 library(devtools)
 source_url("https://raw.githubusercontent.com/KwangYeol/kospi-now/main/R/kuant.R")
 
