@@ -1,3 +1,6 @@
+library(renv)
+renv::restore()
+
 library(devtools)
 source_url("https://raw.githubusercontent.com/KwangYeol/kospi-now/main/R/kuant.R")
 
